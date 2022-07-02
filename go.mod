@@ -1,4 +1,4 @@
-module nvim-go
+module github.com/gotoxic/nvim-go
 
 go 1.18
 
