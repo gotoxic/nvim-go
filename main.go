@@ -13,6 +13,7 @@ var vsp bool
 
 func init() {
   flag.BoolVar(&vsp, "v", false, "vertical split")
+  flag.Parse()
 }
 
 func main() {
